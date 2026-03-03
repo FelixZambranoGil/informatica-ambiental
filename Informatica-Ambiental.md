@@ -2,4 +2,4 @@
 ## Subtítulo
 ### Sección
 #### Sub-sección
-![Logo](https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png)
+![prueba](https://img.freepik.com/foto-gratis/laptop-concepto-naturaleza_23-2150246076.jpg)
