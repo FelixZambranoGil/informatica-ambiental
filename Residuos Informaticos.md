@@ -9,7 +9,7 @@ El rápido avance de la tecnología provoca que cada año se generen millones de
 
 ## 2. Ejemplo de residuos informáticos
 
-![Residuos electrónicos](https://upload.wikimedia.org/wikipedia/commons/3/3a/Electronic_waste_at_Agoshie.jpg)
+![Residuos electrónicos](imagnes/residuos1.jpeg)
 
 Los residuos informáticos incluyen:
 
@@ -24,7 +24,7 @@ Los residuos informáticos incluyen:
 
 ## 3. Componentes electrónicos
 
-![Placas electrónicas](https://upload.wikimedia.org/wikipedia/commons/8/8c/Printed_circuit_boards_e-waste.jpg)
+![Placas electrónicas](imagnes/residuos2.webp)
 
 Los dispositivos electrónicos contienen distintos materiales:
 
@@ -45,7 +45,7 @@ Si no se gestionan correctamente pueden contaminar el medio ambiente.
 
 ## 4. Impacto ambiental
 
-![Montaña de residuos electrónicos](https://upload.wikimedia.org/wikipedia/commons/0/0b/E-waste-dump-Ghana.jpg)
+![Montaña de residuos electrónicos](imagenes/residuos3.jpeg)
 
 Los residuos electrónicos pueden causar:
 
