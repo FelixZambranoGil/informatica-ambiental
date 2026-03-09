@@ -1,87 +1,84 @@
 # Residuos Informáticos
 
 ## 1. Introducción
-Los residuos informáticos, también conocidos como **residuos electrónicos** o **e-waste**, son todos aquellos dispositivos tecnológicos que han quedado obsoletos, dañados o ya no se utilizan. Estos incluyen computadoras, teléfonos móviles, impresoras, monitores y otros equipos electrónicos.
+Los **residuos informáticos** o **residuos electrónicos (e-waste)** son dispositivos tecnológicos que ya no se utilizan o han quedado obsoletos, como computadoras, teléfonos móviles, impresoras y monitores.
 
-El crecimiento acelerado de la tecnología ha provocado un aumento significativo en la cantidad de residuos informáticos en todo el mundo.
-
----
-
-## 2. Ejemplos de residuos informáticos
-Algunos ejemplos comunes de residuos informáticos son:
-
-- Ordenadores de escritorio antiguos
-- Portátiles dañados o obsoletos
-- Teléfonos móviles viejos
-- Impresoras y escáneres
-- Teclados y ratones
-- Discos duros y memorias USB
-- Monitores y pantallas
+El rápido avance de la tecnología provoca que cada año se generen millones de toneladas de basura electrónica en todo el mundo.
 
 ---
 
-## 3. Componentes de los residuos informáticos
-Los equipos informáticos están compuestos por diferentes materiales:
+## 2. Ejemplo de residuos informáticos
+
+![Residuos electrónicos](https://upload.wikimedia.org/wikipedia/commons/3/3a/Electronic_waste_at_Agoshie.jpg)
+
+Los residuos informáticos incluyen:
+
+- Computadoras viejas  
+- Monitores dañados  
+- Teléfonos móviles antiguos  
+- Teclados y ratones  
+- Cables y cargadores  
+- Impresoras y escáneres  
+
+---
+
+## 3. Componentes electrónicos
+
+![Placas electrónicas](https://upload.wikimedia.org/wikipedia/commons/8/8c/Printed_circuit_boards_e-waste.jpg)
+
+Los dispositivos electrónicos contienen distintos materiales:
 
 ### Materiales valiosos
-- Cobre
-- Aluminio
-- Oro
-- Plata
-- Plásticos reciclables
+- Oro  
+- Plata  
+- Cobre  
+- Aluminio  
 
 ### Materiales peligrosos
-- Plomo
-- Mercurio
-- Cadmio
-- Arsénico
+- Plomo  
+- Mercurio  
+- Cadmio  
 
-Estos materiales pueden ser dañinos para el medio ambiente si no se gestionan correctamente.
+Si no se gestionan correctamente pueden contaminar el medio ambiente.
 
 ---
 
 ## 4. Impacto ambiental
-Los residuos informáticos pueden causar varios problemas ambientales:
 
-- **Contaminación del suelo** debido a metales pesados.
-- **Contaminación del agua** cuando sustancias tóxicas se filtran.
-- **Contaminación del aire** si los componentes se queman.
-- Daños a la salud humana y animal.
+![Montaña de residuos electrónicos](https://upload.wikimedia.org/wikipedia/commons/0/0b/E-waste-dump-Ghana.jpg)
 
----
+Los residuos electrónicos pueden causar:
 
-## 5. Importancia del reciclaje
-El reciclaje de residuos informáticos permite:
-
-- Recuperar materiales valiosos.
-- Reducir la contaminación.
-- Disminuir la explotación de recursos naturales.
-- Reducir la cantidad de basura tecnológica.
+- Contaminación del suelo  
+- Contaminación del agua  
+- Contaminación del aire  
+- Problemas de salud en las personas  
 
 ---
 
-## 6. Formas de gestionar los residuos informáticos
+## 5. Reciclaje de residuos informáticos
 
-### Reutilización
-Donar o reutilizar equipos que todavía funcionan.
+![Reciclaje electrónico](https://upload.wikimedia.org/wikipedia/commons/6/6e/Electronic_recycling.jpg)
 
-### Reciclaje
-Llevar los dispositivos a centros especializados de reciclaje electrónico.
+El reciclaje permite:
 
-### Reparación
-Arreglar los dispositivos en lugar de reemplazarlos.
-
----
-
-## 7. Consejos para reducir residuos electrónicos
-- Comprar dispositivos de mayor duración.
-- Reparar antes de reemplazar.
-- Donar equipos que aún funcionen.
-- Reciclar correctamente en puntos autorizados.
+- Recuperar materiales valiosos  
+- Reducir la contaminación  
+- Disminuir la cantidad de basura tecnológica  
+- Aprovechar recursos naturales
 
 ---
 
-## 8. Conclusión
-Los residuos informáticos representan un desafío ambiental importante debido al rápido avance tecnológico. Una gestión adecuada mediante la reutilización, reparación y reciclaje es fundamental para proteger el medio ambiente y aprovechar los recursos de manera sostenible.
+## 6. Cómo reducir los residuos electrónicos
+
+Algunas formas de ayudar son:
+
+- Reparar dispositivos antes de tirarlos  
+- Donar computadoras que aún funcionen  
+- Reciclar en centros especializados  
+- Comprar dispositivos más duraderos  
 
 ---
+
+## 7. Conclusión
+Los residuos informáticos son uno de los problemas ambientales que más crece en el mundo. Una correcta gestión mediante **reutilización, reparación y reciclaje** es fundamental para proteger el medio ambiente.
