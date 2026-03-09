@@ -24,7 +24,7 @@ Los residuos informáticos incluyen:
 
 ## 3. Componentes electrónicos
 
-![Placas electrónicas](imagenes/residuos2.webp)
+![Placas electrónicas](imagenes/residuos2.jpeg)
 
 Los dispositivos electrónicos contienen distintos materiales:
 
