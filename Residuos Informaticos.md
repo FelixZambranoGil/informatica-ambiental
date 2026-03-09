@@ -1,5 +1,17 @@
 # Residuos Informáticos
 
+## Índice
+1. [Introducción](#1-introducción)
+2. [Ejemplo de residuos informáticos](#2-ejemplo-de-residuos-informáticos)
+3. [Componentes electrónicos](#3-componentes-electrónicos)
+4. [Impacto ambiental](#4-impacto-ambiental)
+5. [Reciclaje de residuos informáticos](#5-reciclaje-de-residuos-informáticos)
+6. [Cómo reducir los residuos electrónicos](#6-cómo-reducir-los-residuos-electrónicos)
+7. [Conclusión](#7-conclusión)
+8. [Referencias](#referencias)
+
+---
+
 ## 1. Introducción
 Los **residuos informáticos** o **residuos electrónicos (e-waste)** son dispositivos tecnológicos que ya no se utilizan o han quedado obsoletos, como computadoras, teléfonos móviles, impresoras y monitores.
 
@@ -82,3 +94,12 @@ Algunas formas de ayudar son:
 
 ## 7. Conclusión
 Los residuos informáticos son uno de los problemas ambientales que más crece en el mundo. Una correcta gestión mediante **reutilización, reparación y reciclaje** es fundamental para proteger el medio ambiente.
+
+---
+
+## Referencias
+
+1. Naciones Unidas. *Global E-waste Monitor*. https://ewastemonitor.info  
+2. Organización Mundial de la Salud (OMS). *Electronic Waste and Children's Health*. https://www.who.int  
+3. Parlamento Europeo. *Residuos electrónicos en la UE*. https://www.europarl.europa.eu  
+4. Wikipedia. *Residuos electrónicos*. https://es.wikipedia.org/wiki/Residuos_electrónicos
