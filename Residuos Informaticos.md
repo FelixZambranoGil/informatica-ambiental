@@ -9,7 +9,7 @@ El rápido avance de la tecnología provoca que cada año se generen millones de
 
 ## 2. Ejemplo de residuos informáticos
 
-![Residuos electrónicos](imagnes/residuos1.jpeg)
+![Residuos electrónicos](imagenes/residuos1.jpeg)
 
 Los residuos informáticos incluyen:
 
@@ -24,7 +24,7 @@ Los residuos informáticos incluyen:
 
 ## 3. Componentes electrónicos
 
-![Placas electrónicas](imagnes/residuos2.webp)
+![Placas electrónicas](imagenes/residuos2.webp)
 
 Los dispositivos electrónicos contienen distintos materiales:
 
