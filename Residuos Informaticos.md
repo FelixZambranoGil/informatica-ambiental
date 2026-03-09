@@ -58,7 +58,7 @@ Los residuos electrónicos pueden causar:
 
 ## 5. Reciclaje de residuos informáticos
 
-![Reciclaje electrónico](https://upload.wikimedia.org/wikipedia/commons/6/6e/Electronic_recycling.jpg)
+![Reciclaje electrónico](imagenes/trabajadores.jpg)
 
 El reciclaje permite:
 
