@@ -1,176 +1,240 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
-<meta charset="UTF-8">
-<title>Residuos Informáticos</title>
+    <meta charset="UTF-8">
+    <title>Residuos Informáticos</title>
 
-<style>
-body{
-    font-family: Arial, sans-serif;
-    margin: 40px;
-    line-height: 1.6;
-}
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 40px;
+            margin-left: 220px;
+            line-height: 1.6;
+        }
 
-h1{
-    text-align:center;
-}
+        nav {
+            position: fixed;
+            left: 0;
+            top: 0;
+            height: 100vh;
+            width: 200px;
+            background: linear-gradient(to bottom, #2c6e49, #1b4332);
+            padding: 20px 0;
+            z-index: 1000;
+            box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+        }
 
-img{
-    max-width:500px;
-    display:block;
-    margin:15px 0;
-}
+        .nav-header {
+            color: white;
+            text-align: center;
+            font-size: 18px;
+            margin-bottom: 20px;
+            font-weight: bold;
+        }
 
-.indice{
-    background:#f4f4f4;
-    padding:15px;
-    border-radius:8px;
-}
+        nav ul {
+            list-style: none;
+            display: flex;
+            flex-direction: column;
+            padding: 0;
+            margin: 0;
+            align-items: center;
+        }
 
-</style>
+        nav li {
+            margin: 15px 0;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: white;
+            font-size: 16px;
+            padding: 10px 15px;
+            border-radius: 5px;
+            transition: background 0.3s;
+            display: block;
+            text-align: center;
+            width: 180px;
+            box-sizing: border-box;
+        }
+
+        nav a:hover {
+            background: #1b4332;
+        }
+
+        h1 {
+            text-align: center;
+        }
+
+        img {
+            max-width: 500px;
+            display: block;
+            margin: 15px 0;
+        }
+
+        .indice {
+            background: #f4f4f4;
+            padding: 15px;
+            border-radius: 8px;
+        }
+    </style>
 
 </head>
+
 <body>
 
-<h1>Residuos Informáticos</h1>
+    <nav>
+        <div class="nav-header">Navegación</div>
+        <ul>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="contaminacion-ambiental.html">Contaminación Ambiental</a></li>
+            <li><a href="residuos_informaticos.html">Residuos Informáticos</a></li>
+            <li><a href="obsolescencia-programada.html">Obsolescencia Programada</a></li>
+            <li><a href="informatica-ecologica.html">Informática Ecológica</a></li>
+        </ul>
+    </nav>
 
-<div class="indice">
-<h2>Índice</h2>
-<ol>
-<li><a href="#introduccion">Introducción</a></li>
-<li><a href="#ejemplos">Ejemplo de residuos informáticos</a></li>
-<li><a href="#componentes">Componentes electrónicos</a></li>
-<li><a href="#impacto">Impacto ambiental</a></li>
-<li><a href="#reciclaje">Reciclaje de residuos informáticos</a></li>
-<li><a href="#reducir">Cómo reducir los residuos electrónicos</a></li>
-<li><a href="#conclusion">Conclusión</a></li>
-<li><a href="#referencias">Referencias</a></li>
-</ol>
-</div>
+    <h1>Residuos Informáticos</h1>
 
-<hr>
+    <div class="indice">
+        <h2>Índice</h2>
+        <ol>
+            <li><a href="#introduccion">Introducción</a></li>
+            <li><a href="#ejemplos">Ejemplo de residuos informáticos</a></li>
+            <li><a href="#componentes">Componentes electrónicos</a></li>
+            <li><a href="#impacto">Impacto ambiental</a></li>
+            <li><a href="#reciclaje">Reciclaje de residuos informáticos</a></li>
+            <li><a href="#reducir">Cómo reducir los residuos electrónicos</a></li>
+            <li><a href="#conclusion">Conclusión</a></li>
+            <li><a href="#referencias">Referencias</a></li>
+        </ol>
+    </div>
 
-<h2 id="introduccion">1. Introducción</h2>
+    <hr>
 
-<p>
-Los <strong>residuos informáticos</strong> o <strong>residuos electrónicos (e-waste)</strong>
-son dispositivos tecnológicos que ya no se utilizan o han quedado obsoletos,
-como computadoras, teléfonos móviles, impresoras y monitores.
-</p>
+    <h2 id="introduccion">1. Introducción</h2>
 
-<p>
-El rápido avance de la tecnología provoca que cada año se generen millones
-de toneladas de basura electrónica en todo el mundo.
-</p>
+    <p>
+        Los <strong>residuos informáticos</strong> o <strong>residuos electrónicos (e-waste)</strong>
+        son dispositivos tecnológicos que ya no se utilizan o han quedado obsoletos,
+        como computadoras, teléfonos móviles, impresoras y monitores.
+    </p>
 
-<hr>
+    <p>
+        El rápido avance de la tecnología provoca que cada año se generen millones
+        de toneladas de basura electrónica en todo el mundo.
+    </p>
 
-<h2 id="ejemplos">2. Ejemplo de residuos informáticos</h2>
+    <hr>
 
-<img src="imagenes/residuos1.jpeg" alt="Residuos electrónicos">
+    <h2 id="ejemplos">2. Ejemplo de residuos informáticos</h2>
 
-<p>Los residuos informáticos incluyen:</p>
+    <img src="imagenes/residuos1.jpeg" alt="Residuos electrónicos">
 
-<ul>
-<li>Computadoras viejas</li>
-<li>Monitores dañados</li>
-<li>Teléfonos móviles antiguos</li>
-<li>Teclados y ratones</li>
-<li>Cables y cargadores</li>
-<li>Impresoras y escáneres</li>
-</ul>
+    <p>Los residuos informáticos incluyen:</p>
 
-<hr>
+    <ul>
+        <li>Computadoras viejas</li>
+        <li>Monitores dañados</li>
+        <li>Teléfonos móviles antiguos</li>
+        <li>Teclados y ratones</li>
+        <li>Cables y cargadores</li>
+        <li>Impresoras y escáneres</li>
+    </ul>
 
-<h2 id="componentes">3. Componentes electrónicos</h2>
+    <hr>
 
-<img src="imagenes/residuos2.jpg" alt="Placas electrónicas">
+    <h2 id="componentes">3. Componentes electrónicos</h2>
 
-<p>Los dispositivos electrónicos contienen distintos materiales:</p>
+    <img src="imagenes/residuos2.jpg" alt="Placas electrónicas">
 
-<h3>Materiales valiosos</h3>
-<ul>
-<li>Oro</li>
-<li>Plata</li>
-<li>Cobre</li>
-<li>Aluminio</li>
-</ul>
+    <p>Los dispositivos electrónicos contienen distintos materiales:</p>
 
-<h3>Materiales peligrosos</h3>
-<ul>
-<li>Plomo</li>
-<li>Mercurio</li>
-<li>Cadmio</li>
-</ul>
+    <h3>Materiales valiosos</h3>
+    <ul>
+        <li>Oro</li>
+        <li>Plata</li>
+        <li>Cobre</li>
+        <li>Aluminio</li>
+    </ul>
 
-<p>
-Si no se gestionan correctamente pueden contaminar el medio ambiente.
-</p>
+    <h3>Materiales peligrosos</h3>
+    <ul>
+        <li>Plomo</li>
+        <li>Mercurio</li>
+        <li>Cadmio</li>
+    </ul>
 
-<hr>
+    <p>
+        Si no se gestionan correctamente pueden contaminar el medio ambiente.
+    </p>
 
-<h2 id="impacto">4. Impacto ambiental</h2>
+    <hr>
 
-<img src="imagenes/residuos3.jpeg" alt="Montaña de residuos electrónicos">
+    <h2 id="impacto">4. Impacto ambiental</h2>
 
-<p>Los residuos electrónicos pueden causar:</p>
+    <img src="imagenes/residuos3.jpeg" alt="Montaña de residuos electrónicos">
 
-<ul>
-<li>Contaminación del suelo</li>
-<li>Contaminación del agua</li>
-<li>Contaminación del aire</li>
-<li>Problemas de salud en las personas</li>
-</ul>
+    <p>Los residuos electrónicos pueden causar:</p>
 
-<hr>
+    <ul>
+        <li>Contaminación del suelo</li>
+        <li>Contaminación del agua</li>
+        <li>Contaminación del aire</li>
+        <li>Problemas de salud en las personas</li>
+    </ul>
 
-<h2 id="reciclaje">5. Reciclaje de residuos informáticos</h2>
+    <hr>
 
-<img src="imagenes/trabajadores.jpg" alt="Reciclaje electrónico">
+    <h2 id="reciclaje">5. Reciclaje de residuos informáticos</h2>
 
-<p>El reciclaje permite:</p>
+    <img src="imagenes/trabajadores.jpg" alt="Reciclaje electrónico">
 
-<ul>
-<li>Recuperar materiales valiosos</li>
-<li>Reducir la contaminación</li>
-<li>Disminuir la cantidad de basura tecnológica</li>
-<li>Aprovechar recursos naturales</li>
-</ul>
+    <p>El reciclaje permite:</p>
 
-<hr>
+    <ul>
+        <li>Recuperar materiales valiosos</li>
+        <li>Reducir la contaminación</li>
+        <li>Disminuir la cantidad de basura tecnológica</li>
+        <li>Aprovechar recursos naturales</li>
+    </ul>
 
-<h2 id="reducir">6. Cómo reducir los residuos electrónicos</h2>
+    <hr>
 
-<p>Algunas formas de ayudar son:</p>
+    <h2 id="reducir">6. Cómo reducir los residuos electrónicos</h2>
 
-<ul>
-<li>Reparar dispositivos antes de tirarlos</li>
-<li>Donar computadoras que aún funcionen</li>
-<li>Reciclar en centros especializados</li>
-<li>Comprar dispositivos más duraderos</li>
-</ul>
+    <p>Algunas formas de ayudar son:</p>
 
-<hr>
+    <ul>
+        <li>Reparar dispositivos antes de tirarlos</li>
+        <li>Donar computadoras que aún funcionen</li>
+        <li>Reciclar en centros especializados</li>
+        <li>Comprar dispositivos más duraderos</li>
+    </ul>
 
-<h2 id="conclusion">7. Conclusión</h2>
+    <hr>
 
-<p>
-Los residuos informáticos son uno de los problemas ambientales que más crece
-en el mundo. Una correcta gestión mediante <strong>reutilización,
-reparación y reciclaje</strong> es fundamental para proteger el medio
-ambiente.
-</p>
+    <h2 id="conclusion">7. Conclusión</h2>
 
-<hr>
+    <p>
+        Los residuos informáticos son uno de los problemas ambientales que más crece
+        en el mundo. Una correcta gestión mediante <strong>reutilización,
+            reparación y reciclaje</strong> es fundamental para proteger el medio
+        ambiente.
+    </p>
 
-<h2 id="referencias">Referencias</h2>
+    <hr>
 
-<ol>
-<li>Naciones Unidas – Global E-waste Monitor</li>
-<li>Organización Mundial de la Salud (OMS) – Electronic Waste and Children's Health</li>
-<li>Parlamento Europeo – Residuos electrónicos en la UE</li>
-<li>Wikipedia – Residuos electrónicos</li>
-</ol>
+    <h2 id="referencias">Referencias</h2>
+
+    <ol>
+        <li>Naciones Unidas – Global E-waste Monitor</li>
+        <li>Organización Mundial de la Salud (OMS) – Electronic Waste and Children's Health</li>
+        <li>Parlamento Europeo – Residuos electrónicos en la UE</li>
+        <li>Wikipedia – Residuos electrónicos</li>
+    </ol>
 
 </body>
+
 </html>
