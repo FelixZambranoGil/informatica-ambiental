@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<title>Índice - Contaminación e Informática</title>
+
+<style>
+
+body{
+font-family: Arial, sans-serif;
+background:#f4f4f4;
+text-align:center;
+margin-top:100px;
+}
+
+h1{
+margin-bottom:40px;
+}
+
+ul{
+list-style:none;
+padding:0;
+}
+
+li{
+margin:20px;
+}
+
+a{
+text-decoration:none;
+font-size:20px;
+color:white;
+background:#2c6e49;
+padding:15px 25px;
+border-radius:8px;
+display:inline-block;
+}
+
+a:hover{
+background:#1b4332;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<h1>Índice</h1>
+
+<ul>
+<li><a href="contaminacion.html">¿Qué es la contaminación ambiental?</a></li>
+<li><a href="residuos_informaticos.html">Residuos informáticos</a></li>
+<li><a href="obsolescencia.html">Obsolescencia programada</a></li>
+<li><a href="informatica_ecologica.html">Informática ecológica</a></li>
+</ul>
+
+</body>
+</html>
