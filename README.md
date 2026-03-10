@@ -8,11 +8,9 @@
 
 ## 👥 Integrantes del Equipo
 
-| Nombre | Rol |
-|--------|-----|
-| 🧑‍💻 **Félix Zambrano Gil** | Desarrollador Principal |
-| 🧑‍💻 **Álvaro Zarza García** | Desarrollador |
-| 🧑‍💻 **Miguel Pérez Romero** | Desarrollador |
+ 🧑‍💻 **Félix Zambrano Gil**
+ 🧑‍💻 **Álvaro Zarza García**
+ 🧑‍💻 **Miguel Pérez Romero**
 
 ---
 
