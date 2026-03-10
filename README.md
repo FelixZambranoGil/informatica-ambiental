@@ -13,5 +13,3 @@
  🧑‍💻 **Miguel Pérez Romero**
 
 ---
-
-💚 *Proyecto dedicado a la informática aplicada al medio ambiente*
