@@ -8,8 +8,8 @@
 
 ## 👥 Integrantes del Equipo
 
- 🧑‍💻 **Félix Zambrano Gil**
- 🧑‍💻 **Álvaro Zarza García**
- 🧑‍💻 **Miguel Pérez Romero**
+ 🧑‍💻 **Félix Zambrano**
+ 🧑‍💻 **Álvaro Zarza**
+ 🧑‍💻 **Miguel Adonay**
 
 ---
