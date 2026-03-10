@@ -78,6 +78,44 @@
             padding: 15px;
             border-radius: 8px;
         }
+
+        header,
+        footer {
+            background-color: #222;
+            color: #fff;
+            text-align: center;
+            padding: 1rem;
+        }
+
+        main {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 1rem 1.5rem 2rem;
+        }
+
+        h1,
+        h2,
+        h3 {
+            color: #1b5e20;
+        }
+
+        section {
+            margin-bottom: 2rem;
+        }
+
+        .resumen {
+            background: #e8f5e9;
+            border-left: 4px solid #1b5e20;
+            padding: 1rem;
+        }
+
+        ul {
+            margin-left: 1.2rem;
+        }
+
+        .tipo {
+            font-weight: bold;
+        }
     </style>
 
 </head>
@@ -95,145 +133,153 @@
         </ul>
     </nav>
 
-    <h1>Residuos Informáticos</h1>
+    <header>
+        <h1>Residuos Informáticos</h1>
+    </header>
 
-    <div class="indice">
-        <h2>Índice</h2>
-        <ol>
-            <li><a href="#introduccion">Introducción</a></li>
-            <li><a href="#ejemplos">Ejemplo de residuos informáticos</a></li>
-            <li><a href="#componentes">Componentes electrónicos</a></li>
-            <li><a href="#impacto">Impacto ambiental</a></li>
-            <li><a href="#reciclaje">Reciclaje de residuos informáticos</a></li>
-            <li><a href="#reducir">Cómo reducir los residuos electrónicos</a></li>
-            <li><a href="#conclusion">Conclusión</a></li>
-            <li><a href="#referencias">Referencias</a></li>
-        </ol>
-    </div>
+    <main>
+        <section class="indice">
+            <h2>Índice</h2>
+            <ol>
+                <li><a href="#introduccion">Introducción</a></li>
+                <li><a href="#ejemplos">Ejemplo de residuos informáticos</a></li>
+                <li><a href="#componentes">Componentes electrónicos</a></li>
+                <li><a href="#impacto">Impacto ambiental</a></li>
+                <li><a href="#reciclaje">Reciclaje de residuos informáticos</a></li>
+                <li><a href="#reducir">Cómo reducir los residuos electrónicos</a></li>
+                <li><a href="#conclusion">Conclusión</a></li>
+                <li><a href="#referencias">Referencias</a></li>
+            </ol>
+        </section>
 
-    <hr>
+        <section>
+            <h2 id="introduccion">1. Introducción</h2>
 
-    <h2 id="introduccion">1. Introducción</h2>
+            <p>
+                Los <strong>residuos informáticos</strong> o <strong>residuos electrónicos (e-waste)</strong>
+                son dispositivos tecnológicos que ya no se utilizan o han quedado obsoletos,
+                como computadoras, teléfonos móviles, impresoras y monitores.
+            </p>
 
-    <p>
-        Los <strong>residuos informáticos</strong> o <strong>residuos electrónicos (e-waste)</strong>
-        son dispositivos tecnológicos que ya no se utilizan o han quedado obsoletos,
-        como computadoras, teléfonos móviles, impresoras y monitores.
-    </p>
+            <p>
+                El rápido avance de la tecnología provoca que cada año se generen millones
+                de toneladas de basura electrónica en todo el mundo.
+            </p>
+        </section>
 
-    <p>
-        El rápido avance de la tecnología provoca que cada año se generen millones
-        de toneladas de basura electrónica en todo el mundo.
-    </p>
+        <section>
+            <h2 id="ejemplos">2. Ejemplo de residuos informáticos</h2>
 
-    <hr>
+            <img src="imagenes/residuos1.jpeg" alt="Residuos electrónicos">
 
-    <h2 id="ejemplos">2. Ejemplo de residuos informáticos</h2>
+            <p>Los residuos informáticos incluyen:</p>
 
-    <img src="imagenes/residuos1.jpeg" alt="Residuos electrónicos">
+            <ul>
+                <li>Computadoras viejas</li>
+                <li>Monitores dañados</li>
+                <li>Teléfonos móviles antiguos</li>
+                <li>Teclados y ratones</li>
+                <li>Cables y cargadores</li>
+                <li>Impresoras y escáneres</li>
+            </ul>
+        </section>
 
-    <p>Los residuos informáticos incluyen:</p>
+        <section>
+            <h2 id="componentes">3. Componentes electrónicos</h2>
 
-    <ul>
-        <li>Computadoras viejas</li>
-        <li>Monitores dañados</li>
-        <li>Teléfonos móviles antiguos</li>
-        <li>Teclados y ratones</li>
-        <li>Cables y cargadores</li>
-        <li>Impresoras y escáneres</li>
-    </ul>
+            <img src="imagenes/residuos2.jpg" alt="Placas electrónicas">
 
-    <hr>
+            <p>Los dispositivos electrónicos contienen distintos materiales:</p>
 
-    <h2 id="componentes">3. Componentes electrónicos</h2>
+            <h3>Materiales valiosos</h3>
+            <ul>
+                <li>Oro</li>
+                <li>Plata</li>
+                <li>Cobre</li>
+                <li>Aluminio</li>
+            </ul>
 
-    <img src="imagenes/residuos2.jpg" alt="Placas electrónicas">
+            <h3>Materiales peligrosos</h3>
+            <ul>
+                <li>Plomo</li>
+                <li>Mercurio</li>
+                <li>Cadmio</li>
+            </ul>
 
-    <p>Los dispositivos electrónicos contienen distintos materiales:</p>
+            <p>
+                Si no se gestionan correctamente pueden contaminar el medio ambiente.
+            </p>
+        </section>
 
-    <h3>Materiales valiosos</h3>
-    <ul>
-        <li>Oro</li>
-        <li>Plata</li>
-        <li>Cobre</li>
-        <li>Aluminio</li>
-    </ul>
+        <section>
+            <h2 id="impacto">4. Impacto ambiental</h2>
 
-    <h3>Materiales peligrosos</h3>
-    <ul>
-        <li>Plomo</li>
-        <li>Mercurio</li>
-        <li>Cadmio</li>
-    </ul>
+            <img src="imagenes/residuos3.jpeg" alt="Montaña de residuos electrónicos">
 
-    <p>
-        Si no se gestionan correctamente pueden contaminar el medio ambiente.
-    </p>
+            <p>Los residuos electrónicos pueden causar:</p>
 
-    <hr>
+            <ul>
+                <li>Contaminación del suelo</li>
+                <li>Contaminación del agua</li>
+                <li>Contaminación del aire</li>
+                <li>Problemas de salud en las personas</li>
+            </ul>
+        </section>
 
-    <h2 id="impacto">4. Impacto ambiental</h2>
+        <section>
+            <h2 id="reciclaje">5. Reciclaje de residuos informáticos</h2>
 
-    <img src="imagenes/residuos3.jpeg" alt="Montaña de residuos electrónicos">
+            <img src="imagenes/trabajadores.jpg" alt="Reciclaje electrónico">
 
-    <p>Los residuos electrónicos pueden causar:</p>
+            <p>El reciclaje permite:</p>
 
-    <ul>
-        <li>Contaminación del suelo</li>
-        <li>Contaminación del agua</li>
-        <li>Contaminación del aire</li>
-        <li>Problemas de salud en las personas</li>
-    </ul>
+            <ul>
+                <li>Recuperar materiales valiosos</li>
+                <li>Reducir la contaminación</li>
+                <li>Disminuir la cantidad de basura tecnológica</li>
+                <li>Aprovechar recursos naturales</li>
+            </ul>
+        </section>
 
-    <hr>
+        <section>
+            <h2 id="reducir">6. Cómo reducir los residuos electrónicos</h2>
 
-    <h2 id="reciclaje">5. Reciclaje de residuos informáticos</h2>
+            <p>Algunas formas de ayudar son:</p>
 
-    <img src="imagenes/trabajadores.jpg" alt="Reciclaje electrónico">
+            <ul>
+                <li>Reparar dispositivos antes de tirarlos</li>
+                <li>Donar computadoras que aún funcionen</li>
+                <li>Reciclar en centros especializados</li>
+                <li>Comprar dispositivos más duraderos</li>
+            </ul>
+        </section>
 
-    <p>El reciclaje permite:</p>
+        <section>
+            <h2 id="conclusion">7. Conclusión</h2>
 
-    <ul>
-        <li>Recuperar materiales valiosos</li>
-        <li>Reducir la contaminación</li>
-        <li>Disminuir la cantidad de basura tecnológica</li>
-        <li>Aprovechar recursos naturales</li>
-    </ul>
+            <p>
+                Los residuos informáticos son uno de los problemas ambientales que más crece
+                en el mundo. Una correcta gestión mediante <strong>reutilización,
+                    reparación y reciclaje</strong> es fundamental para proteger el medio
+                ambiente.
+            </p>
+        </section>
 
-    <hr>
+        <section>
+            <h2 id="referencias">Referencias</h2>
 
-    <h2 id="reducir">6. Cómo reducir los residuos electrónicos</h2>
+            <ol>
+                <li>Naciones Unidas – Global E-waste Monitor</li>
+                <li>Organización Mundial de la Salud (OMS) – Electronic Waste and Children's Health</li>
+                <li>Parlamento Europeo – Residuos electrónicos en la UE</li>
+                <li>Wikipedia – Residuos electrónicos</li>
+            </ol>
+        </section>
+    </main>
 
-    <p>Algunas formas de ayudar son:</p>
-
-    <ul>
-        <li>Reparar dispositivos antes de tirarlos</li>
-        <li>Donar computadoras que aún funcionen</li>
-        <li>Reciclar en centros especializados</li>
-        <li>Comprar dispositivos más duraderos</li>
-    </ul>
-
-    <hr>
-
-    <h2 id="conclusion">7. Conclusión</h2>
-
-    <p>
-        Los residuos informáticos son uno de los problemas ambientales que más crece
-        en el mundo. Una correcta gestión mediante <strong>reutilización,
-            reparación y reciclaje</strong> es fundamental para proteger el medio
-        ambiente.
-    </p>
-
-    <hr>
-
-    <h2 id="referencias">Referencias</h2>
-
-    <ol>
-        <li>Naciones Unidas – Global E-waste Monitor</li>
-        <li>Organización Mundial de la Salud (OMS) – Electronic Waste and Children's Health</li>
-        <li>Parlamento Europeo – Residuos electrónicos en la UE</li>
-        <li>Wikipedia – Residuos electrónicos</li>
-    </ol>
+    <footer>
+        <p>Página educativa sobre residuos informáticos</p>
+    </footer>
 
 </body>
 
