@@ -78,9 +78,5 @@
             </ul>
         </section>
     </main>
-
-    <footer>
-        <p>Información para el trabajo escolar - 2026</p>
-    </footer>
 </body>
 </html>
