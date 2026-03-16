@@ -1,9 +1,5 @@
-/* Estilo universal mejorado para el sitio web de Informática Ambiental */
-
-/* Importar fuentes modernas */
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&family=Open+Sans:wght@300;400;600&display=swap');
 
-/* Variables CSS para consistencia y facilidad de mantenimiento */
 :root {
     --primary-color: #2c6e49;
     --secondary-color: #1b4332;
@@ -21,7 +17,6 @@
     --font-secondary: 'Open Sans', sans-serif;
 }
 
-/* Reset básico */
 * {
     margin: 0;
     padding: 0;
@@ -39,7 +34,6 @@ body {
     overflow-x: hidden;
 }
 
-/* Navegación mejorada */
 nav {
     position: fixed;
     left: 0;
@@ -114,7 +108,6 @@ nav a:hover {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
-/* Contenido principal */
 main {
     max-width: 900px;
     margin: 0 auto;
@@ -127,7 +120,6 @@ main {
     backdrop-filter: blur(10px);
 }
 
-/* Tipografía mejorada */
 h1 {
     font-size: 1.7rem;
     font-weight: 700;
@@ -180,7 +172,6 @@ a:hover {
     text-decoration: underline;
 }
 
-/* Header y Footer mejorados */
 header {
     background: linear-gradient(135deg, var(--dark-bg) 0%, #495057 100%);
     color: var(--light-text);
@@ -215,7 +206,6 @@ footer {
     box-shadow: var(--shadow);
 }
 
-/* Secciones */
 section {
     margin-bottom: 3rem;
     padding: 2rem;
@@ -230,7 +220,6 @@ section:hover {
     transform: translateY(-2px);
 }
 
-/* Clases específicas */
 .resumen {
     background: linear-gradient(135deg, #e8f5e9 0%, #f1f8e9 100%);
     border-left: 5px solid var(--accent-color);
@@ -256,7 +245,6 @@ section:hover {
     border-radius: 4px;
 }
 
-/* Listas */
 ul, ol {
     margin-left: 1.5rem;
     margin-bottom: 1.5rem;
@@ -266,7 +254,6 @@ li {
     margin-bottom: 0.5rem;
 }
 
-/* Imágenes */
 img {
     max-width: 100%;
     height: auto;
@@ -280,7 +267,6 @@ img:hover {
     transform: scale(1.02);
 }
 
-/* Página de índice específica */
 .index-body {
     text-align: center;
     padding: 60px 20px;
@@ -296,7 +282,6 @@ img:hover {
     padding: 60px 40px;
 }
 
-/* Responsividad */
 @media (max-width: 768px) {
     body {
         margin-left: 0;
@@ -376,7 +361,6 @@ img:hover {
     }
 }
 
-/* Animaciones sutiles */
 @keyframes fadeIn {
     from { opacity: 0; transform: translateY(20px); }
     to { opacity: 1; transform: translateY(0); }
@@ -386,7 +370,6 @@ section, header, footer {
     animation: fadeIn 0.6s ease-out;
 }
 
-/* Accesibilidad */
 @media (prefers-reduced-motion: reduce) {
     *, *::before, *::after {
         animation-duration: 0.01ms !important;
@@ -395,7 +378,6 @@ section, header, footer {
     }
 }
 
-/* Imprimir */
 @media print {
     nav {
         display: none;
@@ -411,7 +393,6 @@ section, header, footer {
     }
 }
 
-/* Scrollbar personalizada */
 ::-webkit-scrollbar {
     width: 12px;
 }
