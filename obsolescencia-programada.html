@@ -5,7 +5,30 @@
     <meta charset="UTF-8">
     <title>Obsolescencia programada</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
     <link rel="stylesheet" href="styles.css">
+
+    <style>
+        main img {
+            width: 100%;           
+            max-width: 500px;       
+            height: 300px;          
+            object-fit: cover;      
+            display: block;         
+            margin: 25px auto;      
+            border-radius: 12px;    
+            box-shadow: 0 8px 20px rgba(0,0,0,0.15); 
+            transition: transform 0.3s ease;
+        }
+
+        main img:hover {
+            transform: scale(1.02);
+        }
+
+        section h2, section h3 {
+            margin-top: 40px;
+        }
+    </style>
 </head>
 
 <body>
@@ -20,6 +43,7 @@
             <li><a href="referencias.html">📚Referencias</a></li>
         </ul>
     </nav>
+
     <header>
         <h1>Obsolescencia programada</h1>
         <p>Qué es, tipos, impacto y alternativas</p>
@@ -31,132 +55,79 @@
             <p>
                 La obsolescencia programada es la estrategia de diseñar un producto para que tenga
                 una vida útil limitada de forma intencional, de modo que, tras un tiempo calculado,
-                se vuelva obsoleto, deje de funcionar bien o no compense repararlo, empujando al
-                consumidor a comprar uno nuevo.
+                se vuelva obsoleto, deje de funcionar bien o no compense repararlo.
             </p>
         </section>
 
         <section>
-            <h2>1. Lógica económica</h2>         
-            <p>
-                La obsolescencia programada acorta el tiempo entre compras para mantener o aumentar
-                las ventas en mercados donde casi todo el mundo ya tiene el producto.
-            </p>
+            <h2>1. Lógica económica</h2>
             <p>
                 Se apoya en un modelo de “usar y tirar”: producir mucho, vender rápido y no priorizar
                 la durabilidad ni la reparabilidad.
             </p>
-            <img src="imagenes/progra4.png">   
+            <img src="imagenes/progra4.png" alt="Lógica económica">
         </section>
 
         <section>
             <h2>2. Tipos de obsolescencia programada</h2>
+            
             <h3>2.1. Obsolescencia técnica o funcional</h3>
-            <img src="https://via.placeholder.com/420x220?text=Obsolescencia+t%C3%A9cnica" alt="Obsolescencia técnica" style="max-width:100%;height:auto;display:block;margin:0.5em 0;">
+            <img src="https://via.placeholder.com/420x220?text=Obsolescencia+t%C3%A9cnica" alt="Obsolescencia técnica">
             <p>
                 Ocurre cuando el producto deja de funcionar correctamente por diseño, aunque podría
-                haber durado más si se hubieran usado mejores materiales o componentes.
+                haber durado más si se hubieran usado mejores materiales.
             </p>
-            <ul>
-                <li>Ejemplo: baterías selladas que no se pueden cambiar fácilmente.</li>
-                <li>Ejemplo: impresoras que muestran error tras cierto número de páginas impresas.</li>
-            </ul>
 
             <h3>2.2. Obsolescencia por incompatibilidad (software)</h3>
             <p>
-                El hardware sigue funcionando, pero el software deja de recibir soporte o
-                actualizaciones, volviendo lento o inútil el dispositivo.
+                El hardware sigue funcionando, pero el software deja de recibir soporte o actualizaciones.
             </p>
-            <ul>
-                <li>Ejemplo: móviles que dejan de recibir actualizaciones del sistema.</li>
-                <li>Ejemplo: aplicaciones que ya no son compatibles con versiones antiguas.</li>
-            </ul>
 
             <h3>2.3. Obsolescencia psicológica o estética</h3>
             <p>
-                El producto funciona, pero se percibe como “viejo” o pasado de moda por cambios
-                frecuentes de diseño y marketing.
+                El producto funciona, pero se percibe como “viejo” por cambios frecuentes de diseño.
             </p>
-            <ul>
-                <li>Ejemplo: cambios de diseño de móviles o ropa que hacen que el modelo anterior parezca anticuado.
-                </li>
-            </ul>
 
             <h3>2.4. Obsolescencia por falta de reparación</h3>
             <p>
-                El producto podría repararse, pero la reparación es muy cara o no hay repuestos ni
-                manuales, de forma que se opta por comprar uno nuevo.
+                La reparación es muy cara o no hay repuestos, de forma que se opta por comprar uno nuevo.
             </p>
-            <ul>
-                <li>Ejemplo: piezas exclusivas, sin repuestos oficiales y sin acceso a manuales de reparación.</li>
-            </ul>
-            <img src="imagenes/progra2.png">   
+            <img src="imagenes/progra2.png" alt="Falta de reparación">
         </section>
 
         <section>
             <h2>3. Impacto ambiental y social</h2>
-            <img src="https://via.placeholder.com/420x220?text=Impacto+ambiental" alt="Impacto ambiental y social" style="max-width:100%;height:auto;display:block;margin:0.5em 0;">
+            <img src="https://via.placeholder.com/420x220?text=Impacto+ambiental" alt="Impacto ambiental">
             <ul>
-                <li>
-                    Genera más residuos electrónicos: se tiran dispositivos que aún podrían usarse
-                    si fueran reparables.
-                </li>
-                <li>
-                    Aumenta el consumo de recursos naturales (metales, agua, energía) necesarios para
-                    fabricar continuamente productos nuevos.
-                </li>
-                <li>
-                    Incrementa las emisiones de gases de efecto invernadero asociadas a extracción,
-                    producción y transporte.
-                </li>
-                <li>
-                    Perjudica más a quienes tienen menos recursos, que deben volver a comprar cuando
-                    el producto falla antes de lo esperado.
-                </li>
+                <li>Genera más residuos electrónicos.</li>
+                <li>Aumenta el consumo de recursos naturales.</li>
+                <li>Incrementa las emisiones de gases de efecto invernadero.</li>
             </ul>
-            <img src="imagenes/progra1.jpg">   
+            <img src="imagenes/progra1.jpg" alt="Residuos electrónicos">
         </section>
 
         <section>
             <h2>4. Obsolescencia natural vs programada</h2>
-            <img src="https://via.placeholder.com/420x220?text=Obsolescencia+natural+vs+programada" alt="Obsolescencia natural vs programada" style="max-width:100%;height:auto;display:block;margin:0.5em 0;">
             <p>
-                Todo producto tiene una obsolescencia natural: con el uso se desgasta y deja de
-                funcionar. La obsolescencia programada ocurre cuando se reduce de forma artificial
-                esa vida útil posible.
+                La diferencia clave está en la intencionalidad: el producto podría durar más, pero se diseña para que no lo sea.
             </p>
-            <p>
-                La diferencia clave está en la intencionalidad: el producto podría durar más o ser
-                reparable, pero se diseña para que no lo sea.
-            </p>
-            <img src="imagenes/progra.jpg">   
+            <img src="imagenes/progra.jpg" alt="Natural vs Programada">
         </section>
 
         <section>
             <h2>5. Alternativas y soluciones</h2>
-            <img src="https://via.placeholder.com/420x220?text=Alternativas+y+soluciones" alt="Alternativas y soluciones" style="max-width:100%;height:auto;display:block;margin:0.5em 0;">
+            <img src="https://via.placeholder.com/420x220?text=Alternativas+y+soluciones" alt="Alternativas">
             <ul>
-                <li>
-                    Leyes que amplíen las garantías y obliguen a ofrecer repuestos e información sobre
-                    la vida útil esperada.
-                </li>
-                <li>
-                    Impulso al “derecho a reparar”: productos más fáciles de abrir, reparar y con
-                    piezas y manuales disponibles.
-                </li>
-                <li>
-                    Diseño ecológico: productos más duraderos, modulares y fáciles de reciclar.
-                </li>
-                <li>
-                    Consumo responsable: alargar la vida útil de los dispositivos, repararlos y no
-                    cambiarlos solo por moda.
-                </li>
+                <li>Leyes de "derecho a reparar".</li>
+                <li>Diseño ecológico y productos modulares.</li>
+                <li>Consumo responsable.</li>
             </ul>
-            <img src="imagenes/progra5.jpeg">   
+            <img src="imagenes/progra5.jpeg" alt="Soluciones ecológicas">
         </section>
     </main>
+
     <footer>
-        <p>Página educativa sobre informática ecológica</p>
+        <p>Página educativa sobre informática ecológica | 2026</p>
     </footer>
 </body>
 
